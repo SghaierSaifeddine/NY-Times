@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "NY-Times"
+    }
+  },
+  "defaultProject": "NY-Times",
+  "cli": {
+    "analytics": "32bb897e-62fd-417d-b6cc-956356ab3046"
+  }
 }
