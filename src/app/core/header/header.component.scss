@@ -1,0 +1,24 @@
+@import "../styles/main.scss";
+.title{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    &-img {
+        width: 50%;
+    }
+}
+
+.navbar {
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+

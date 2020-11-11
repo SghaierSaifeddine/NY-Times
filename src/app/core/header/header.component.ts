@@ -1,3 +1,4 @@
+import { HostListener } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  isSticky: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  @HostListener('window:scroll', ['$event'])
+  checkScroll() {
+    this.isSticky = window.pageYOffset >= 130;
+  }
 }
