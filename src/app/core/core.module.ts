@@ -2,11 +2,12 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CoreComponent } from './core.component';
 import { throwIfAlreadyLoaded } from './module-import-guard';
+import { HeaderComponent } from './header/header.component';
 
 
 
 @NgModule({
-  declarations: [CoreComponent],
+  declarations: [CoreComponent, HeaderComponent],
   imports: [
     CommonModule
   ],

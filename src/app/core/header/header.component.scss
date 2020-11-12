@@ -1,0 +1,14 @@
+@import "../../styles/main.scss";
+.title{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    &-img {
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
