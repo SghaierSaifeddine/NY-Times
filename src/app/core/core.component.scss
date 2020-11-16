@@ -1,4 +1,36 @@
 @import "../styles/main.scss";
+
+
 .global-div {
     margin: $main-padding;
+}
+
+.first-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    &-left {
+        height: 100%;
+        width: 20%;
+    }
+    &-middle {
+        height: 100%;
+        width: 60%;
+    }
+    &-right {
+        height: 100%;
+        width: 20%;
+        background-color: green;
+    }
+}
+
+.title {
+    font-style: normal;
+    color: #121212;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.body {
+    color: #666;
 }
