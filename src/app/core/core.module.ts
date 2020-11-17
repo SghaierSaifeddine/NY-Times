@@ -4,11 +4,12 @@ import { CoreComponent } from './core.component';
 import { throwIfAlreadyLoaded } from './module-import-guard';
 import { HeaderComponent } from './header/header.component';
 import { HomeSliderComponent } from '../features/home-feature/components/home-slider/home-slider.component';
+import { CardImageRightComponent } from '../features/home-feature/components/card-image-right/card-image-right.component';
 
 
 
 @NgModule({
-  declarations: [CoreComponent, HeaderComponent, HomeSliderComponent],
+  declarations: [CoreComponent, HeaderComponent, HomeSliderComponent, CardImageRightComponent],
   imports: [
     CommonModule,
     
