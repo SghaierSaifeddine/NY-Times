@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { CoreComponent } from './core.component';
 import { throwIfAlreadyLoaded } from './module-import-guard';
 import { HeaderComponent } from './header/header.component';
+import { HomeSliderComponent } from '../features/home-feature/components/home-slider/home-slider.component';
 
 
 
 @NgModule({
-  declarations: [CoreComponent, HeaderComponent],
+  declarations: [CoreComponent, HeaderComponent, HomeSliderComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    
   ],
   exports: [CoreComponent]
 })
