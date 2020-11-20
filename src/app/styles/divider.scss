@@ -1,8 +1,8 @@
 .v-divider {
-    height: 100%;
     width: 0.5px;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-left: 15px;
+    margin: 5px 15px 5px 15px;
+    overflow: auto;
 }
 
 .h-divider {

@@ -63,7 +63,7 @@
         overflow: auto;
         width: 64%;
         .h-divider {
-            height: 0.8px;
+            height: 2px;
             background-color: black;
             margin-top: 3px;
         }
@@ -71,14 +71,19 @@
             height: 0.6px;
             background-color: rgb(173, 173, 173);
             margin-top: 10px;
-            
+            margin-bottom: 15px;
         }
-    }
-
-    &-mid {
-        width: 2%;
-        overflow: auto;
-        margin-top: 15px;
+        .title {
+            font-style: normal;
+            color: #121212;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .body {
+            color: #666;
+            font-size: 15px;
+            font-weight: 500;
+        }
     }
 
     &-right {
@@ -91,6 +96,15 @@
             background-color: black;
         }
     }
+}
+.category {
+    font-style: normal;
+    color: #121212;
+    font-size: 17px;
+    font-weight: 550;
+    margin-top: 2%;
+    overflow: auto;
+    margin-bottom: 0;
 }
 
 
