@@ -5,12 +5,13 @@ import { throwIfAlreadyLoaded } from './module-import-guard';
 import { HeaderComponent } from './header/header.component';
 import { HomeSliderComponent } from '../features/home-feature/components/home-slider/home-slider.component';
 import { CardImageRightComponent } from '../features/home-feature/components/card-image-right/card-image-right.component';
+import { CardImgTopComponent } from '../features/home-feature/components/card-img-top/card-img-top.component';
 import { OpinionCardComponent } from '../features/home-feature/components/opinion-card/opinion-card.component';
 
 
 
 @NgModule({
-  declarations: [CoreComponent, HeaderComponent, HomeSliderComponent, CardImageRightComponent, OpinionCardComponent],
+  declarations: [CoreComponent, HeaderComponent, HomeSliderComponent, CardImageRightComponent, OpinionCardComponent, CardImgTopComponent],
   imports: [
     CommonModule,
     
