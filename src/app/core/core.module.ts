@@ -7,11 +7,13 @@ import { HomeSliderComponent } from '../features/home-feature/components/home-sl
 import { CardImageRightComponent } from '../features/home-feature/components/card-image-right/card-image-right.component';
 import { CardImgTopComponent } from '../features/home-feature/components/card-img-top/card-img-top.component';
 import { OpinionCardComponent } from '../features/home-feature/components/opinion-card/opinion-card.component';
+import { NewsComponent } from '../features/home-feature/components/news/news.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
-  declarations: [CoreComponent, HeaderComponent, HomeSliderComponent, CardImageRightComponent, OpinionCardComponent, CardImgTopComponent],
+  declarations: [CoreComponent, HeaderComponent, HomeSliderComponent, CardImageRightComponent, OpinionCardComponent, CardImgTopComponent, NewsComponent, FooterComponent],
   imports: [
     CommonModule,
     
