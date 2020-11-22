@@ -1,0 +1,44 @@
+.footer{
+    margin-top: 30px;
+    .h-divider {
+        height: 1px;
+        margin: 2px 0 0 0;
+        background-color: black;
+    }
+    &-img {
+        margin-top: 10px;
+    }
+    &-category {
+        margin-top: 20px;
+        display: grid;                                    
+        grid-template-columns: repeat(5, 237.8px);           
+        grid-gap: 10px;                                    
+        width: 100%;
+        &-section{
+            overflow: auto;;
+            .title {
+                font-style: normal;
+                color: #121212;
+                font-size: 14px;
+                font-weight: 700;
+                margin-top: 5px;
+            }
+            .category {
+                color: black;
+                font-size: 13px;
+            }
+        }
+    }
+    .copyrights {
+        .h-divider {
+            height: 0.5px;
+            margin: 10px 0 0 0;
+            background-color: black;
+        }
+        .company {
+            color: rgb(128, 128, 128);
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    }
+}

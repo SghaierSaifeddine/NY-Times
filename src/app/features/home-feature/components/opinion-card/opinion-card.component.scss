@@ -1,0 +1,59 @@
+.opinion-card-image {
+    display: flex;
+    width: 100%;
+       .author {
+        width: 100%;
+        position: relative;
+        padding-top: 2%;
+        &-name {
+            font-style: normal;
+            color: #a8a6a6c9;
+            font-size: 15px;
+            font-weight: 700;
+            margin: 0;
+        }
+    }
+    .author-icon {
+        width: 40px;
+        height: 40px;
+        right: 0; 
+        
+    }
+    .title {
+        font-style: normal;
+        color: black;
+        font-size: 14px;
+        font-weight: 700;
+        padding: -20px;
+        overflow: auto;
+        width: 95%;
+    }
+    .body {
+        font-style: normal;
+        color: #3f3d3db0;
+        font-size: 14px;
+        font-weight: 500;
+        top: -5px;
+        overflow: auto;
+        width: 100%;
+    }
+    .opinion-img {
+        width: 40%;
+        margin-left: 5%;
+    }
+}
+
+.s-opinion-holder {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    &-left {
+        width: 50%;
+        overflow: auto;
+    }
+    &-right {
+        width: 50%;
+        overflow: auto;
+    }
+
+}

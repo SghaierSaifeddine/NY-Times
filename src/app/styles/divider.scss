@@ -1,13 +1,13 @@
 .v-divider {
-    height: 100%;
     width: 0.5px;
-    background-color: rgb(221, 202, 202);
-    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5px 15px 5px 15px;
+    overflow: auto;
 }
 
 .h-divider {
     width: 100%;
     height: 0.5px;
-    background-color: rgb(221, 202, 202);
+    background-color:rgba(0, 0, 0, 0.397);
     margin: 10px 0 10px;
 }

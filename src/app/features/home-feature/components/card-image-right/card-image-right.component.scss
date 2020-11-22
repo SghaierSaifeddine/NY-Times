@@ -1,0 +1,36 @@
+.home-card {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+
+    &-text {
+        width: 35%;
+        padding-right: 30px;
+        .title {
+            font-style: normal;
+            color: #121212;
+            font-size: 25px;
+            font-weight: 300;
+        }
+        .h-divider {
+            margin: 25px 0 25px;
+            width: 25%;
+        }
+        .body {
+            color: #666;
+            font-size: 15px;
+            padding-left: 0px;
+            font-weight: 450;
+        }
+    }
+
+    &-img {
+        width: 65%;
+        height: auto;
+        .card-img {
+            max-width: 100%; 
+            max-height: 100%; 
+            width: 100%;
+        }
+    }
+}

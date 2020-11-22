@@ -1,0 +1,24 @@
+.news-section {
+    margin-top: 10px;
+    display: grid;                                    
+    grid-template-columns: repeat(5, 237.8px);           
+    grid-gap: 10px;                                    
+    width: 100%;
+    .small-card {
+        height: 350px;
+        margin-top: 25px;
+        &-category {
+            font-style: normal;
+            color: #121212;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        &-img {
+            margin-top: 5px;
+        }
+        &-body {
+           font-size: 15px;
+           margin-top: 5px;
+        }
+    }
+}
