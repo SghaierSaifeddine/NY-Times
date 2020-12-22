@@ -1,75 +1,16 @@
-<div class="home-card">
+<div class="home-card" *ngFor="let article of articls">
     <div class="home-card-date">
-        Nov 30, 2020
+        {{ article.date }}
     </div>
     <div class="home-card-text">
-        <div class="title">Afghan and Taliban Negotiators Agree on Peace Talks’ Procedures</div>
-        <div class="body">Afghan government and Taliban officials said they had finalized the terms to guide future talks, 
-            opening the door to a new phase of negotiations toward a long-term peace.
-        </div>
-        <div class="editor">By THOMAS GIBBONS-NEFF and FATIMA FAIZI</div>
+        <div class="title">{{ article.title }}</div>
+        <div class="body">{{ article.object }}</div>
+        <div class="editor">By {{ article.author }}</div>
     </div>
     <div class="home-card-img">
-        <img class="card-img" src="../../../../../assets/1.jpg">
+        <img class="card-img" src="{{ article.imageUrl }}">
     </div>
 </div>
 
-<div class="home-card">
-    <div class="home-card-date">
-        Nov 30, 2020
-    </div>
-    <div class="home-card-text">
-        <div class="title">Threat to Landmark Italian Stadium Enrages Conservationists</div>
-        <div class="body">The Artemio Franchi stadium in Florence is considered a seminal example of 20th-century architecture. But the new American owner of the soccer team there says it no longer does its job.
-        </div>
-        <div class="editor">By ELISABETTA POVOLEDO</div>
-    </div>
-    <div class="home-card-img">
-        <img class="card-img" src="../../../../../assets/2.jpg">
-    </div>
-</div>
 
-<div class="home-card">
-    <div class="home-card-date">
-        Nov 30, 2020
-    </div>
-    <div class="home-card-text">
-        <div class="title">The County With No Coronavirus Cases (And Plenty Of Suspicion)</div>
-        <div class="body">Officially, only one county in the continental U.S. has had zero 
-            cases: Loving County, in rural West Texas. But has it really avoided the pandemic?</div>
-        <div class="editor">By BEN DOOLEY</div>
-    </div>
-    <div class="home-card-img">
-        <img class="card-img" src="../../../../../assets/card-img.jpg">
-    </div>
-</div>
 
-<div class="home-card">
-    <div class="home-card-date">
-        Nov 30, 2020
-    </div>
-    <div class="home-card-text">
-        <div class="title">The County With No Coronavirus Cases (And Plenty Of Suspicion)</div>
-        <div class="body">Officially, only one county in the continental U.S. has had zero 
-            cases: Loving County, in rural West Texas. But has it really avoided the pandemic?</div>
-        <div class="editor">By BEN DOOLEY</div>
-    </div>
-    <div class="home-card-img">
-        <img class="card-img" src="../../../../../assets/card-img.jpg">
-    </div>
-</div>
-
-<div class="home-card">
-    <div class="home-card-date">
-        Nov 30, 2020
-    </div>
-    <div class="home-card-text">
-        <div class="title">The County With No Coronavirus Cases (And Plenty Of Suspicion)</div>
-        <div class="body">Officially, only one county in the continental U.S. has had zero 
-            cases: Loving County, in rural West Texas. But has it really avoided the pandemic?</div>
-        <div class="editor">By BEN DOOLEY</div>
-    </div>
-    <div class="home-card-img">
-        <img class="card-img" src="../../../../../assets/card-img.jpg">
-    </div>
-</div>
