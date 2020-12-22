@@ -9,6 +9,8 @@ import { CardImgTopComponent } from '../features/home-feature/components/card-im
 import { OpinionCardComponent } from '../features/home-feature/components/opinion-card/opinion-card.component';
 import { NewsComponent } from '../features/home-feature/components/news/news.component';
 import { FooterComponent } from './footer/footer.component';
+import {RouterModule} from '@angular/router';
+import { WorldNewFeatureModule } from '../features/world-new-feature/world-new-feature.module';
 
 
 
@@ -16,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [CoreComponent, HeaderComponent, HomeSliderComponent, CardImageRightComponent, OpinionCardComponent, CardImgTopComponent, NewsComponent, FooterComponent],
   imports: [
     CommonModule,
-    
+    RouterModule,
+    WorldNewFeatureModule
   ],
   exports: [CoreComponent]
 })
