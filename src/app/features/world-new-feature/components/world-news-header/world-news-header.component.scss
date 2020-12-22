@@ -1,0 +1,43 @@
+@import "../../../../styles/main.scss";
+
+
+.world-news-navbar {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.world-news-header {
+    width: 100%;
+    height: 42px;
+}
+
+.section-title {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    .title {
+        font-style: normal;
+        color: #121212;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
+.section-logo {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.section-account {
+    width: 33%;
+    height: 100%;
+}
